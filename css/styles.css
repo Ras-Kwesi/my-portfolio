@@ -1,16 +1,36 @@
 body {
-  background-image: url("../images/water.jpeg");
-  background-repeat: repeat;
+  background-image: url("../images/water2.jpeg");
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  font-size: 28px
 }
 .picture{
   border-radius: 100%;
-  height: 380px;
+  height: 350px;
   width: 450px;
   float: right;
 }
 h1{
   text-align: center;
   color: yellow;
+}
+.intro{
+  font-style: italic;
+}
+.header {
+  margin: 5px;
+  padding: 3px;
+  background-color: #C4455C;
+}
+.intro a {
+  font-style: italic;
+  color: red;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-family: sans-serif;
+    color: grey;
+  }
+
 }
