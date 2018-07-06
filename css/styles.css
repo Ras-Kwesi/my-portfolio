@@ -5,7 +5,7 @@ body {
   color: white;
   font-size: 28px
 }
-.picture{
+.picture {
   border-radius: 100%;
   height: 350px;
   width: 450px;
@@ -33,4 +33,10 @@ h1{
     color: grey;
   }
 
+}
+.picture3 {
+  float: center;
+}
+.picture4 {
+  float: right;
 }
